@@ -1,0 +1,58 @@
+/* ------------------ All ------------------ */
+@font-face {
+    font-family: 'Trip Sans';
+    src: url('font/TripSans-Medium.eot');
+    src: local('Trip Sans Medium'), local('TripSans-Medium'),
+        url('font/TripSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('font/TripSans-Medium.woff2') format('woff2'),
+        url('font/TripSans-Medium.woff') format('woff'),
+        url('font/TripSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trip Sans';
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url('images/background.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+
+/* ------------------------ Header ------------------------- */
+
+/* --------------------- Présentation ---------------------- */
+
+/* ---------------------- Réalisation ---------------------- */
+
+/* ------------------------ Contact ------------------------ */
+
+/* ------------------------ Footer ------------------------- */
+
+/* ---------------------- Responsive ----------------------- */
+
+
+@media only screen and (max-width:900px){
+    /* ---------------- Header -------------- */
+
+    /* ------------- Présentation ----------- */
+
+    /* -------------- Compétence ------------ */
+
+    /* --------------- Contact -------------- */
+
+    /* --------------- Footer --------------- */
+}
